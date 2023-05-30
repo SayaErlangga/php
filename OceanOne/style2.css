@@ -1,0 +1,127 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 10px;
+    font-size: 35px;
+    color: white;
+}
+div a{
+    float: right;
+    font-size: 16px;
+    color: black;
+    padding: 6px 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+img .logo{
+    float: left;
+    padding: 20px;
+}
+.bg{
+    opacity: 60%;
+}
+article{
+    display: flex;
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    height: 500px;
+}
+div .konten1{
+    flex: 50%;
+    background-color: white;
+    height: 500px;
+    
+}
+div.konten2{
+    flex: 50%;
+    background-color: white;
+    height: 500px;
+}
+h1{
+    padding-left: 10%;
+    padding-top: 20%;
+    font-size: 30px;
+}
+iframe{
+    border: 1px solid black;
+    border-radius: 30px;
+    position: absolute;
+    top: 89%;
+    left: 10%;
+}
+p{
+    padding-left: 10%;
+}
+div.over{
+    width: 600px;
+    overflow: visible;
+}
+footer{
+    background-color: rgb(7, 2, 58);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.container{
+    display: flex;
+}
+div .konten3{
+    display: flex;
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+}
+h1.corp{
+    position: absolute;
+    top: 105%;
+    left: 34%;
+}
+fieldset{
+    margin-top: 120px;
+    margin-left: 50px ;
+    margin-right: 50px;
+    width: 400px;
+    height: 140px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+h3{
+    padding: 2px;
+}
+.sidebar a, .dropbtn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  .sidebar a:hover, .dropbtn:hover {
+    color: #f1f1f1;
+  }
+  .dropdown-content {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  .active {
+    background-color: green;
+    color: white;
+  }
+
